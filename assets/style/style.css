@@ -471,7 +471,7 @@ section{
   --color-bg-accent: #e20f2f;
   --size: clamp(10rem, 1rem + 40vmin, 30rem);
   --gap: calc(var(--size) / 14);
-  --duration: 60s;
+  --duration: 80s;
   --scroll-start: 0;
   --scroll-end: calc(-100% - var(--gap));
 }
@@ -511,11 +511,11 @@ section{
   animation-play-state: paused;
 }
 
-/* @media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   .marquee__group {
     animation-play-state: paused;
   }
-} */
+}
 
 .marquee--vertical {
   --mask-direction: to bottom;
