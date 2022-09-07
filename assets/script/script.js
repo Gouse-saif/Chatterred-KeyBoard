@@ -138,6 +138,20 @@ $(".child16").on({
   },
 });
 
+// ======= Onclick Sound Effect =======
+// var sound = new Audio('assets/Audio/Keyboard_press_-_Sound_Effect.mp3');
+// let child = document.querySelectorAll(".child");
+
+// child.addEventListener('click',()=>{
+// 	sound.currentTime = 0;
+// 	sound.play();
+// });
+
+function play() {
+  var audio = new Audio('assets/Audio/Keyboard_press_-_Sound_Effect.mp3');
+  audio.play();
+}
+
 
 // ======= Scroll Reveal Animation =======
 const sr = ScrollReveal({ 

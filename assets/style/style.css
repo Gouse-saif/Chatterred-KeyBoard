@@ -424,10 +424,10 @@ section{
     cursor: pointer;
     /* background-color: white; */
     /* color: red; */
-    /* border: 2px solid red; */
+    border: 2px solid red;
     opacity: 0.5;
-    width: 22px;
-    height: 22px;
+    width: 32px;
+    height: 28px;
     border-radius: 50%;
 }
 
