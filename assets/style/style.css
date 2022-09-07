@@ -350,9 +350,10 @@ ul li.active a {
     width: 100%;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     bottom: 0;
     flex-wrap: wrap;
+    /* padding-inline-end:1rem; */
   }
   .links a {
     font-size: 1rem;
