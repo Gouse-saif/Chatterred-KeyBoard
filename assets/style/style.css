@@ -59,7 +59,7 @@ body {
   width: 1.9rem;
   height: 1.5px;
   border-radius: 2px;
-  background-color: #eee;
+  background-color: #00b295;
   transition: 0.5s;
   position: relative;
 }
@@ -70,7 +70,7 @@ body {
   position: absolute;
   width: inherit;
   height: inherit;
-  background-color: #eee;
+  background-color: #00b295;
   transition: 0.5s;
 }
 
